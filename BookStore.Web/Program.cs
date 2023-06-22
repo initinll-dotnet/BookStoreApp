@@ -14,9 +14,13 @@ builder.Services.AddScoped<IValidator<BookModel>, BookModelValidator>();
 builder.Services.AddScoped<IBookService, BookService>();
 builder.Services.AddScoped<IBookRepository, BookRepository>();
 builder.Services.AddSingleton<MongoContext>();
+builder.Services.AddSingleton<IMongoDbIndexConfigurator, MongoDbIndexConfigurator>();
 builder.Services.Configure<DatabaseSettings>(builder.Configuration.GetSection("MongoConnection"));
 
 var app = builder.Build();
+
+var indexConfigurator = app.Services.GetRequiredService<IMongoDbIndexConfigurator>();
+Task.Run(async () => await indexConfigurator.ConfigureIndexesAsync()).Wait();
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
