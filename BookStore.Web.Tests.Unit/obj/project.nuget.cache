@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "eKLY2zaqeMjFM4MgBEzPKD1dcU6zKN9FZxvPfPLfuOnjcEeaeTANNE+zO3BZufkEZz0O9WyjvEm99LOXaiUb8g==",
+  "dgSpecHash": "SqrSbV+EYpgQYKQW1iabPiTHUkOyuF4HqYFDmmsDKGTPGD68ODNBVIi7PGdU2QpdIGYq/yg0MFiytqc4vrLqFg==",
   "success": true,
-  "projectFilePath": "C:\\Projects\\PERSONAL\\BookStore\\BookStore.Web.Tests.Unit\\BookStore.Web.Tests.Unit.csproj",
+  "projectFilePath": "C:\\Projects\\PERSONAL\\BookStoreApp\\BookStore.Web.Tests.Unit\\BookStore.Web.Tests.Unit.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\G547482\\.nuget\\packages\\awssdk.core\\3.7.100.14\\awssdk.core.3.7.100.14.nupkg.sha512",
     "C:\\Users\\G547482\\.nuget\\packages\\awssdk.securitytoken\\3.7.100.14\\awssdk.securitytoken.3.7.100.14.nupkg.sha512",

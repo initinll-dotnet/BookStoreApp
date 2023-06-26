@@ -7217,11 +7217,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projects\\PERSONAL\\BookStore\\BookStore.Web.Tests.Unit\\BookStore.Web.Tests.Unit.csproj",
+      "projectUniqueName": "C:\\Projects\\PERSONAL\\BookStoreApp\\BookStore.Web.Tests.Unit\\BookStore.Web.Tests.Unit.csproj",
       "projectName": "BookStore.Web.Tests.Unit",
-      "projectPath": "C:\\Projects\\PERSONAL\\BookStore\\BookStore.Web.Tests.Unit\\BookStore.Web.Tests.Unit.csproj",
+      "projectPath": "C:\\Projects\\PERSONAL\\BookStoreApp\\BookStore.Web.Tests.Unit\\BookStore.Web.Tests.Unit.csproj",
       "packagesPath": "C:\\Users\\G547482\\.nuget\\packages\\",
-      "outputPath": "C:\\Projects\\PERSONAL\\BookStore\\BookStore.Web.Tests.Unit\\obj\\",
+      "outputPath": "C:\\Projects\\PERSONAL\\BookStoreApp\\BookStore.Web.Tests.Unit\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\G547482\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -7237,8 +7237,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Projects\\PERSONAL\\BookStore\\BookStore.Web\\BookStore.Web.csproj": {
-              "projectPath": "C:\\Projects\\PERSONAL\\BookStore\\BookStore.Web\\BookStore.Web.csproj"
+            "C:\\Projects\\PERSONAL\\BookStoreApp\\BookStore.Web\\BookStore.Web.csproj": {
+              "projectPath": "C:\\Projects\\PERSONAL\\BookStoreApp\\BookStore.Web\\BookStore.Web.csproj"
             }
           }
         }
